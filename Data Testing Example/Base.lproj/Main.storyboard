@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7cW-LY-FbT">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -24,64 +24,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Murder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-KZ-mnn">
-                                <rect key="frame" x="53" y="273" width="309" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="102"/>
-                                <color key="textColor" red="0.90196078431372551" green="0.52311638182008036" blue="0.56296935299775186" alpha="0.85817101883561642" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mystery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-MP-2ed">
-                                <rect key="frame" x="53" y="450" width="324" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="98"/>
-                                <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85803724315068497" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Murder is PROHIBITED" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CXj-mS-U2O">
-                                <rect key="frame" x="45" y="595" width="324" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="37"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Manor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-nw-YQM">
-                                <rect key="frame" x="73" y="359.66666666666669" width="230" height="105.33333333333331"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="100"/>
-                                <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85977632705479456" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1920's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N14-ci-CoV">
-                                <rect key="frame" x="51" y="115.99999999999999" width="341" height="162.66666666666663"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="154"/>
-                                <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-3R-2cK">
-                                <rect key="frame" x="20" y="642" width="381" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="28"/>
-                                <state key="normal" title="Recieve character profile" backgroundImage="jpbuttonagain">
-                                    <color key="titleColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="recieveButton:" destination="l7s-hh-Wtk" eventType="touchUpInside" id="aWx-Wg-UlI"/>
-                                    <action selector="recieveButton:" destination="XYm-AM-8Bz" eventType="touchUpInside" id="hIL-ra-gLg"/>
-                                    <segue destination="4kU-yF-2fY" kind="presentation" modalPresentationStyle="fullScreen" id="Fo3-Cz-13J"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HV9-M2-Kou">
+                                <rect key="frame" x="37" y="105" width="340.66666666666669" height="653.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-t8-B49">
+                                        <rect key="frame" x="0.0" y="0.0" width="340.66666666666669" height="653.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1920's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N14-ci-CoV">
+                                                <rect key="frame" x="0.0" y="0.0" width="340.66666666666669" height="162.33333333333334"/>
+                                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="154"/>
+                                                <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Murder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-KZ-mnn">
+                                                <rect key="frame" x="0.0" y="176.33333333333334" width="340.66666666666669" height="107.66666666666666"/>
+                                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="102"/>
+                                                <color key="textColor" red="0.90196078431372551" green="0.52311638182008036" blue="0.56296935299775186" alpha="0.85817101883561642" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-nw-YQM">
+                                                <rect key="frame" x="0.0" y="298" width="340.66666666666669" height="105.66666666666669"/>
+                                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="100"/>
+                                                <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85977632705479456" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-MP-2ed">
+                                                <rect key="frame" x="0.0" y="417.66666666666669" width="340.66666666666669" height="103.33333333333331"/>
+                                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="98"/>
+                                                <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85803724315068497" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Murder is PROHIBITED" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CXj-mS-U2O">
+                                                <rect key="frame" x="0.0" y="535" width="340.66666666666669" height="40.666666666666629"/>
+                                                <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="37"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-3R-2cK">
+                                                <rect key="frame" x="0.0" y="589.66666666666663" width="340.66666666666669" height="64"/>
+                                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="28"/>
+                                                <state key="normal" title="Recieve character profile" backgroundImage="jpbuttonagain">
+                                                    <color key="titleColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="recieveButton:" destination="l7s-hh-Wtk" eventType="touchUpInside" id="aWx-Wg-UlI"/>
+                                                    <action selector="recieveButton:" destination="XYm-AM-8Bz" eventType="touchUpInside" id="hIL-ra-gLg"/>
+                                                    <segue destination="4kU-yF-2fY" kind="presentation" modalPresentationStyle="fullScreen" id="Fo3-Cz-13J"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7lf-t8-B49" firstAttribute="leading" secondItem="HV9-M2-Kou" secondAttribute="leading" constant="25" id="PbW-tV-1Wz"/>
+                                    <constraint firstItem="7lf-t8-B49" firstAttribute="top" secondItem="HV9-M2-Kou" secondAttribute="top" constant="45" id="ZgP-Gg-bZ2"/>
+                                    <constraint firstAttribute="trailing" secondItem="7lf-t8-B49" secondAttribute="trailing" constant="25" id="q7O-yZ-Pwo"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.13919481781995471" green="0.22562731297679556" blue="0.34656661476580619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zO4-qC-59F"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4Np-0F-VKS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZR-Oy-9r7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="l7s-hh-Wtk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="586.95652173913049" y="134.59821428571428"/>
+            <point key="canvasLocation" x="592.75362318840587" y="140.625"/>
         </scene>
         <!--Second View-->
         <scene sceneID="tne-QT-ifu">
@@ -91,41 +99,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Character Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nQ-Vy-hKZ">
-                                <rect key="frame" x="108" y="163" width="215" height="27"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <color key="textColor" red="0.91208082437515259" green="0.76966202259063721" blue="0.8361552357673645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Character Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjY-s9-qJ8">
-                                <rect key="frame" x="58" y="217" width="314" height="356"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Character Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjY-s9-qJ8">
+                                <rect key="frame" x="20" y="262" width="364" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="356" id="rtF-Nu-CrQ"/>
-                                </constraints>
                                 <color key="textColor" red="0.91208082437515259" green="0.76966202259063721" blue="0.8361552357673645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Character Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saK-Xo-B9U">
+                                <rect key="frame" x="20" y="209" width="224" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="35"/>
+                                <color key="textColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The below is your character name and description! Use it as inspiration for everything throughout the event!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOd-Aj-qoQ">
+                                <rect key="frame" x="43" y="59" width="319" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="23"/>
+                                <color key="textColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.15279757935992724" green="0.22693596997029311" blue="0.36273594646889551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wjY-s9-qJ8" secondAttribute="trailing" constant="42" id="3st-f8-VjK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wjY-s9-qJ8" secondAttribute="bottom" constant="289" id="9gT-7l-H8U"/>
-                            <constraint firstItem="wjY-s9-qJ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="iFO-AH-kWw"/>
-                            <constraint firstItem="wjY-s9-qJ8" firstAttribute="top" secondItem="6nQ-Vy-hKZ" secondAttribute="bottom" constant="25" id="rCu-M5-0gs"/>
-                            <constraint firstItem="wjY-s9-qJ8" firstAttribute="centerX" secondItem="6nQ-Vy-hKZ" secondAttribute="centerX" id="yQI-Nv-yRh"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="characterDescriptionLabel" destination="wjY-s9-qJ8" id="c2i-0A-SHA"/>
-                        <outlet property="characterNameLabel" destination="6nQ-Vy-hKZ" id="nms-Qg-Nwc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="135"/>
+            <point key="canvasLocation" x="1972.4637681159422" y="133.92857142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jKG-oC-0gf">
@@ -142,50 +148,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="520"/>
                                         <attributedString key="attributedText">
                                             <fragment>
-                                                <string key="content">This app is for the 1920's Murder Manor Mystery hosted by Bethany White, a high school junior, at The Delta School. After you allow and schedule notifications, you will receive your character profile by typing a number between 0 and 25 that you will be assigned at the party. Once you enter that number, your character's name and description will appear. Throughout the whole experience you should act as you think your character would and have fun! No old fogies allowed!                                   Please allow Notifications on the next screen for the full experience!</string>
+                                                <string key="content">This app is for the 1920's Murder Manor Mystery hosted by Bethany White, a high school junior, at The Delta School. After you allow notifications, you will receive your character profile by typing a number between 0 and 25 that you will be assigned at the party. Once you enter that number, your character's name and description will appear. Throughout the whole experience you should act as you think your character would and have fun! No old fogies allowed!                                     Please allow notifications on the next screen for the full experience!</string>
                                                 <attributes>
                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                        <tabStops>
-                                                            <textTab alignment="left" location="28">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="56">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="84">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="112">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="140">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="168">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="196">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="224">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="252">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="280">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="308">
-                                                                <options/>
-                                                            </textTab>
-                                                            <textTab alignment="left" location="336">
-                                                                <options/>
-                                                            </textTab>
-                                                        </tabStops>
-                                                    </paragraphStyle>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -232,33 +199,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
-                                <rect key="frame" x="112" y="184" width="191" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
-                                <rect key="frame" x="53" y="588" width="308" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
-                                    <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="enterButton:" destination="oSG-HH-Myp" eventType="touchUpInside" id="aZh-Y7-ig5"/>
-                                    <action selector="enterButton:" destination="4kU-yF-2fY" eventType="touchUpInside" id="yGJ-fS-Hdk"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="xzm-Vs-GWS"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="236" translatesAutoresizingMaskIntoConstraints="NO" id="Xlx-AY-j7m">
+                                <rect key="frame" x="25" y="104" width="364" height="640.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the number you have been given below so you can receive your character!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="63.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="20"/>
+                                        <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                                        <rect key="frame" x="0.0" y="299.33333333333331" width="364" height="41"/>
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
+                                        <rect key="frame" x="0.0" y="576.33333333333337" width="364" height="64"/>
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                        <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
+                                            <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="enterButton:" destination="oSG-HH-Myp" eventType="touchUpInside" id="aZh-Y7-ig5"/>
+                                            <action selector="enterButton:" destination="4kU-yF-2fY" eventType="touchUpInside" id="yGJ-fS-Hdk"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="xzm-Vs-GWS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.15106683969497681" green="0.22271215915679932" blue="0.36955386400222778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xlx-AY-j7m" firstAttribute="leading" secondItem="MDO-RW-d8z" secondAttribute="leading" constant="25" id="W28-Iz-yJn"/>
+                            <constraint firstItem="Xlx-AY-j7m" firstAttribute="top" secondItem="vFi-9E-SdS" secondAttribute="top" constant="60" id="jvq-vJ-iEz"/>
+                            <constraint firstItem="Xlx-AY-j7m" firstAttribute="top" secondItem="MDO-RW-d8z" secondAttribute="top" constant="56" id="ns0-k1-lxG"/>
+                            <constraint firstAttribute="trailing" secondItem="Xlx-AY-j7m" secondAttribute="trailing" constant="25" id="zph-O8-OvK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vFi-9E-SdS"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pQd-U8-ksz"/>
                     <connections>
                         <outlet property="textField" destination="9nM-3k-2qq" id="HRB-kg-R9P"/>
                     </connections>
@@ -266,7 +247,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfl-ch-4uv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oSG-HH-Myp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1279.7101449275362" y="134.59821428571428"/>
+            <point key="canvasLocation" x="1279.7101449275362" y="134.5108695652174"/>
         </scene>
     </scenes>
     <resources>
