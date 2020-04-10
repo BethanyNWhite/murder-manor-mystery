@@ -78,7 +78,7 @@ class SecondView: ViewController {
     if characterNumber == 0 {
        // let notificationHour4 = 18
        // let notificationMinute4 = 25
-        let notificationContentBody = notificationContent0[0]
+        _ = notificationContent0[0]
         notification1()
         notification2()
         notification3()
@@ -89,7 +89,7 @@ class SecondView: ViewController {
         if characterNumber == 1 {
           //  let notificationHour4 = 18
           //  let notificationMinute4 = 25
-            let notificationContentBody = notificationContent0[0]
+            _ = notificationContent0[0]
             notification1()
             notification2()
             notification3()
@@ -99,31 +99,31 @@ class SecondView: ViewController {
         if characterNumber == 2 {
           //  let notificationHour4 = 18
            // let notificationMinute4 = 25
-            let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
             
            // let notificationHour5 = 18
            // let notificationMinute5 = 35
-            let notificationContentBody2 =  notificationContent1[1]
+            _ =  notificationContent1[1]
             
            // let notificationHour6 = 18
            // let notificationMinute6 = 55
-            let notificationContentBody3 = notificationContent1[2]
+            _ = notificationContent1[2]
             
           //  let notificationHour7 = 19
           //  let notificationMinute7 = 10
-            let notificationContentBody4 = notificationContent1[3]
+            _ = notificationContent1[3]
             
          //   let notificationHour8 = 19
          //   let notificationMinute8 = 25
-            let notificationContentBody5 = notificationContent1[4]
+            _ = notificationContent1[4]
             
           //  let notificationHour9 = 19
           //  let notificationMinute9 = 55
-            let notificationContentBody6 = notificationContent1[5]
+            _ = notificationContent1[5]
             
            // let notificationHour10 = 20
            // let notificationMinute10 = 20
-            let notificationContentBody7 = notificationContent1[6]
+            _ = notificationContent1[6]
             
             notification1()
             notification2()
@@ -141,23 +141,23 @@ class SecondView: ViewController {
     if characterNumber == 3 {
             //let notificationHour4 = 18
            // let notificationMinute4 = 35
-            let notificationContentBody = notificationContent1[0]
+        _ = notificationContent1[0]
             
           //  let notificationHour5 = 18
            // let notificationMinute5 = 45
-            let notificationContentBody2 =  notificationContent1[1]
+        _ =  notificationContent1[1]
         
           //  let notificationHour6 = 19
           //  let notificationMinute6 = 10
-            let notificationContentBody3 = notificationContent1[2]
+        _ = notificationContent1[2]
         
            // let notificationHour7 = 20
            // let notificationMinute7 = 20
-            let notificationContentBody4 = notificationContent1[3]
+        _ = notificationContent1[3]
         
           //  let notificationHour8 = 20
           //  let notificationMinute8 = 30
-            let notificationContentBody5 = notificationContent1[4]
+        _ = notificationContent1[4]
             
             notification1()
             notification2()
@@ -172,19 +172,19 @@ class SecondView: ViewController {
         if characterNumber == 17 {
                // let notificationHour4 = 18
                // let notificationMinute4 = 35
-                let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
                 
                 //let notificationHour5 = 19
                // let notificationMinute5 = 40
-                let notificationContentBody2 =  notificationContent1[1]
+            _ =  notificationContent1[1]
             
               //  let notificationHour6 = 19
               //  let notificationMinute6 = 50
-                let notificationContentBody3 = notificationContent1[2]
+            _ = notificationContent1[2]
             
               //  let notificationHour7 = 20
              //   let notificationMinute7 = 05
-                let notificationContentBody4 = notificationContent1[3]
+            _ = notificationContent1[3]
                 
                 notification1()
                 notification2()
@@ -198,15 +198,15 @@ class SecondView: ViewController {
         if characterNumber == 10 {
              //   let notificationHour4 = 18
           //      let notificationMinute4 = 45
-                let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
                 
            //     let notificationHour5 = 19
           //      let notificationMinute5 = 40
-                let notificationContentBody2 =  notificationContent1[1]
+            _ =  notificationContent1[1]
             
              //   let notificationHour6 = 20
              //   let notificationMinute6 = 20
-                let notificationContentBody3 = notificationContent1[1]
+            _ = notificationContent1[1]
             
                 notification1()
                 notification2()
@@ -219,7 +219,7 @@ class SecondView: ViewController {
         if characterNumber == 25 {
               //  let notificationHour4 = 18
              //   let notificationMinute4 = 45
-                let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
                 
                 notification1()
                 notification2()
@@ -231,7 +231,7 @@ class SecondView: ViewController {
         if characterNumber == 7 {
            // let notificationHour4 = 18
             //let notificationMinute4 = 45
-            let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
             
             notification1()
             notification2()
@@ -242,7 +242,7 @@ class SecondView: ViewController {
         if characterNumber == 25 {
           //  let notificationHour4 = 18
           //  let notificationMinute4 = 55
-            let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
             
             notification1()
             notification2()
@@ -253,7 +253,7 @@ class SecondView: ViewController {
         if characterNumber == 5 {
            // let notificationHour4 = 19
           //  let notificationMinute4 = 15
-            let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
             
             notification1()
             notification2()
@@ -264,7 +264,7 @@ class SecondView: ViewController {
         if characterNumber == 22 {
          //   let notificationHour4 = 19
          //   let notificationMinute4 = 45
-            let notificationContentBody = notificationContent1[0]
+            _ = notificationContent1[0]
             
             notification1()
             notification2()
@@ -310,8 +310,7 @@ class SecondView: ViewController {
         center.add(request)
     }
     func notification3(){
-        _ = UNUserNotificationCenter.current()
-        
+       let center = UNUserNotificationCenter.current()
         
         let content = UNMutableNotificationContent()
         content.title = "Murder Mystery UPDATE"
@@ -319,7 +318,7 @@ class SecondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
 
-        var dateComponents = DateComponents()
+        let dateComponents = DateComponents()
     //    dateComponents.hour = 18
      //   dateComponents.minute = 10
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
