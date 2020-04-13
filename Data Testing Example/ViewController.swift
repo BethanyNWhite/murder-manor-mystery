@@ -57,7 +57,6 @@ class ViewController: UIViewController {
         descriptionNameString = descriptionArray[descriptionNumber]
     }
     
-    
 }
 
 class SecondView: ViewController {
