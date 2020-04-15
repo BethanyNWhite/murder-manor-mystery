@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         
 
 }
+    let characterNameArray = ["Anna WeatherBee", "Benjamin Topaz", "Helen Borden", "Katniss Grange", "Merida Evernever", "Lili Felton", "Toni Blossom", "Camila Weatherbee",  "Tori Blossom", "Fred Borden", "Elsa Parkinson"]
+    
     @IBAction func beginGameButton(_ sender: Any) {
         registerLocal()
         //scheduleLocal()
@@ -45,15 +47,15 @@ class ViewController: UIViewController {
     
     @IBAction func enterButton(_ sender: Any) {
         if Int(textField.text!) != nil && Int(textField.text!)! < 26 {
-        generateCharacter (charNumber: Int(textField.text!)!,
+        generateCharacter (characterNumber: Int(textField.text!)!,
                            descriptionNumber: Int(textField.text!)!)
         } else {
             print("A PROBLEM")
         }
     }
-    func generateCharacter(charNumber: Int, descriptionNumber: Int) {
-        characterNumber = charNumber
-        characterNameString = characterNameArray[charNumber]
+    func generateCharacter(characterNumber: Int, descriptionNumber: Int) {
+        characterNameString = characterNameArray[characterNumber]
+        //characterNameString = characterNameArray[charNumber]
         descriptionNameString = descriptionArray[descriptionNumber]
     }
     
@@ -66,7 +68,8 @@ class SecondView: ViewController {
             
     override func viewDidLoad() {
         super.viewDidLoad()
-        characterNameLabel.text = characterNameString
+      //  characterNameLabel.text = characterNameString
+     
         characterDescriptionLabel.text = descriptionNameString
         setCharacter()
     }
