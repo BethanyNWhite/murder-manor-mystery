@@ -262,20 +262,7 @@ class SecondView: ViewController {
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
     center.add(request)
     }
-    func notification8(notificationHour: Int, notificationMinute: Int, notificationContent: String){
-    let center = UNUserNotificationCenter.current()
-    let content = UNMutableNotificationContent()
-    content.title = "Spanish Flu UPDATE"
-    content.body = notificationContent
-    content.categoryIdentifier = "alarm"
-    content.sound = .default
-    var dateComponents = DateComponents()
-    dateComponents.hour = notificationHour
-    dateComponents.minute = notificationMinute
-    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-    center.add(request)
-    }
+    
     func notification9(notificationHour: Int, notificationMinute: Int, notificationContent: String){
     let center = UNUserNotificationCenter.current()
     let content = UNMutableNotificationContent()
@@ -290,31 +277,4 @@ class SecondView: ViewController {
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
     center.add(request)
     }
-    func notification10(notificationHour: Int, notificationMinute: Int, notificationContent: String){
-    let center = UNUserNotificationCenter.current()
-    let content = UNMutableNotificationContent()
-    content.title = "Spanish Flu UPDATE"
-    content.body = notificationContent
-    content.categoryIdentifier = "alarm"
-    content.sound = .default
-    var dateComponents = DateComponents()
-    dateComponents.hour = notificationHour
-    dateComponents.minute = notificationMinute
-    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-    center.add(request)
-    }
-    func notification11(notificationHour: Int, notificationMinute: Int, notificationContent: String){
-    let center = UNUserNotificationCenter.current()
-    let content = UNMutableNotificationContent()
-    content.title = "Spanish Flu UPDATE"
-    content.body = notificationContent
-    content.categoryIdentifier = "alarm"
-    content.sound = .default
-    var dateComponents = DateComponents()
-    dateComponents.hour = notificationHour
-    dateComponents.minute = notificationMinute
-    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-    center.add(request)
-}
+
