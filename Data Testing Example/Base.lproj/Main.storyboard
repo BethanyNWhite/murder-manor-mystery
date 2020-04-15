@@ -25,43 +25,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HV9-M2-Kou">
-                                <rect key="frame" x="15" y="59" width="345" height="709"/>
+                                <rect key="frame" x="15" y="59" width="345" height="640"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-t8-B49">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="709"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="640"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1910's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N14-ci-CoV">
-                                                <rect key="frame" x="0.0" y="0.0" width="345" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="149.33333333333334"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="128"/>
                                                 <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-KZ-mnn">
-                                                <rect key="frame" x="0.0" y="137" width="345" height="90.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="151.33333333333334" width="345" height="100.33333333333334"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52311638182008036" blue="0.56296935299775186" alpha="0.85817101883561642" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-nw-YQM">
-                                                <rect key="frame" x="0.0" y="229.66666666666666" width="345" height="90.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="253.66666666666671" width="345" height="100.33333333333334"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85977632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-MP-2ed">
-                                                <rect key="frame" x="0.0" y="322.33333333333331" width="345" height="90.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="356" width="345" height="100.33333333333331"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85803724315068497" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CXj-mS-U2O">
-                                                <rect key="frame" x="0.0" y="415" width="345" height="228"/>
+                                                <rect key="frame" x="0.0" y="458.33333333333343" width="345" height="115.66666666666669"/>
                                                 <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="37"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-3R-2cK">
-                                                <rect key="frame" x="0.0" y="645" width="345" height="64"/>
+                                                <rect key="frame" x="0.0" y="576" width="345" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="Qmh-dp-wSE"/>
                                                 </constraints>
@@ -155,7 +155,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1971.0144927536232" y="132.88043478260872"/>
+            <point key="canvasLocation" x="2550" y="140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ga-VK-g9G">
+            <objects>
+                <viewController id="iy1-WS-qhz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ejd-3y-9Ze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
+                                <rect key="frame" x="0.0" y="267" width="375" height="278"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15106683969497681" green="0.22271215915679932" blue="0.36955386400222778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1Ui-JU-f7y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBk-bN-Hoa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1898" y="696"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jKG-oC-0gf">
@@ -166,10 +188,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="m2j-SM-LX8">
-                                <rect key="frame" x="20" y="64" width="335" height="684"/>
+                                <rect key="frame" x="20" y="64" width="335" height="694"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-6x-6j0">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="576"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="478"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </string>
@@ -183,17 +205,30 @@
                                         <color key="highlightedColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-ZX-Tal">
-                                        <rect key="frame" x="0.0" y="584" width="335" height="100"/>
+                                        <rect key="frame" x="0.0" y="486" width="335" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="kql-LC-uFz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                        <state key="normal" title="Begin the game!" backgroundImage="jpbuttonagain">
-                                            <color key="titleColor" red="0.90588235294117647" green="0.77254901960784317" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="14"/>
+                                        <state key="normal" title="*PLAYING AT HOME* COMING SOON" backgroundImage="juniorprojectDARKERBUTTON">
+                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="beginGameButton:" destination="7cW-LY-FbT" eventType="touchUpInside" id="Bts-pD-SH7"/>
                                             <segue destination="XYm-AM-8Bz" kind="presentation" modalPresentationStyle="fullScreen" id="UAC-NV-LtC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQV-Qd-Rs4">
+                                        <rect key="frame" x="0.0" y="594" width="335" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Eno-dr-ku9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="22"/>
+                                        <state key="normal" title="PLAYING AT THE EVENT" backgroundImage="jpbuttonagain">
+                                            <color key="titleColor" red="0.90588235289999997" green="0.7725490196" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="beginGameButton:" destination="7cW-LY-FbT" eventType="touchUpInside" id="tFH-XL-Rz5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -226,7 +261,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="Xlx-AY-j7m">
-                                <rect key="frame" x="25" y="104" width="325" height="659"/>
+                                <rect key="frame" x="25" y="104" width="325" height="581"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the number you have been given in the box below so you can receive your character!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
                                         <rect key="frame" x="0.0" y="0.0" width="325" height="76"/>
@@ -234,16 +269,16 @@
                                         <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
-                                        <rect key="frame" x="0.0" y="276" width="325" height="119"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                                        <rect key="frame" x="0.0" y="276" width="325" height="41"/>
                                         <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
                                         </connections>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
-                                        <rect key="frame" x="0.0" y="595" width="325" height="64"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
+                                        <rect key="frame" x="0.0" y="517" width="325" height="64"/>
                                         <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                         <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
                                             <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -287,5 +322,6 @@
     </scenes>
     <resources>
         <image name="jpbuttonagain" width="245" height="64"/>
+        <image name="juniorprojectDARKERBUTTON" width="106.33333587646484" height="28.666666030883789"/>
     </resources>
 </document>
