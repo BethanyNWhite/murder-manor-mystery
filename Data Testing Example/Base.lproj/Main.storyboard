@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7cW-LY-FbT">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -21,47 +20,47 @@
             <objects>
                 <viewController id="XYm-AM-8Bz" customClass="ViewController" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ICv-JJ-aOU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HV9-M2-Kou">
-                                <rect key="frame" x="15" y="59" width="384" height="793"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HV9-M2-Kou">
+                                <rect key="frame" x="15" y="59" width="345" height="640"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-t8-B49">
-                                        <rect key="frame" x="0.0" y="0.0" width="384" height="793"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-t8-B49">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="640"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1910's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N14-ci-CoV">
-                                                <rect key="frame" x="0.0" y="0.0" width="384" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="135"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="128"/>
                                                 <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-KZ-mnn">
-                                                <rect key="frame" x="0.0" y="149" width="384" height="90.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="146" width="345" height="90.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52311638182008036" blue="0.56296935299775186" alpha="0.85817101883561642" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-nw-YQM">
-                                                <rect key="frame" x="0.0" y="253.66666666666666" width="384" height="90.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="247.66666666666666" width="345" height="90.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85977632705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-MP-2ed">
-                                                <rect key="frame" x="0.0" y="358.33333333333331" width="384" height="90.666666666666686"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mystery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml6-MP-2ed">
+                                                <rect key="frame" x="0.0" y="349.33333333333331" width="345" height="90.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="86"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.52156862745098043" blue="0.56470588235294117" alpha="0.85803724315068497" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CXj-mS-U2O">
-                                                <rect key="frame" x="0.0" y="463" width="384" height="252"/>
+                                                <rect key="frame" x="0.0" y="451" width="345" height="114"/>
                                                 <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="37"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-3R-2cK">
-                                                <rect key="frame" x="0.0" y="729" width="384" height="64"/>
+                                                <rect key="frame" x="0.0" y="576" width="345" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="Qmh-dp-wSE"/>
                                                 </constraints>
@@ -110,18 +109,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZR-Oy-9r7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="l7s-hh-Wtk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="592.75362318840587" y="140.21739130434784"/>
+            <point key="canvasLocation" x="662" y="131"/>
         </scene>
         <!--Second View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SecondView" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Character:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saK-Xo-B9U">
+                                <rect key="frame" x="16" y="123" width="224" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                <color key="textColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember to act as the character below for the event!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOd-Aj-qoQ">
-                                <rect key="frame" x="20" y="35" width="284" height="78"/>
+                                <rect key="frame" x="25" y="37" width="284" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -130,23 +136,18 @@
                                 <color key="textColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Character Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjY-s9-qJ8">
-                                <rect key="frame" x="25" y="208" width="364" height="485"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="Character Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjY-s9-qJ8">
+                                <rect key="frame" x="16" y="185" width="353" height="475"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.91208082437515259" green="0.76966202259063721" blue="0.8361552357673645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Character:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saK-Xo-B9U">
-                                <rect key="frame" x="25" y="136" width="224" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <color key="textColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.15279757935992724" green="0.22693596997029311" blue="0.36273594646889551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wjY-s9-qJ8" secondAttribute="bottom" constant="220" id="Ngw-wU-OfJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -155,24 +156,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2028.75" y="130.98591549295776"/>
+            <point key="canvasLocation" x="1984.8" y="130.88455772113943"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jKG-oC-0gf">
             <objects>
                 <viewController id="7cW-LY-FbT" customClass="ViewController" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4z-lS-4Up">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="center" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="m2j-SM-LX8">
-                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                            <stackView opaque="NO" contentMode="center" axis="vertical" spacing="44" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m2j-SM-LX8">
+                                <rect key="frame" x="20" y="64" width="335" height="694"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-6x-6j0">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="562"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="448"/>
                                         <attributedString key="attributedText">
                                             <fragment>
-                                                <mutableString key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </mutableString>
+                                                <string key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </string>
                                                 <attributes>
                                                     <color key="NSColor" red="0.80365413427352905" green="0.47345525026321411" blue="0.53085529804229736" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="17" name="AmericanTypewriter"/>
@@ -183,7 +184,10 @@
                                         <color key="highlightedColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-ZX-Tal">
-                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <rect key="frame" x="0.0" y="474" width="335" height="100"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="kql-LC-uFz"/>
                                         </constraints>
@@ -197,7 +201,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQV-Qd-Rs4">
-                                        <rect key="frame" x="0.0" y="678" width="374" height="100"/>
+                                        <rect key="frame" x="0.0" y="594" width="335" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Eno-dr-ku9"/>
                                         </constraints>
@@ -228,18 +232,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C21-zT-cvz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-102.89855072463769" y="132.88043478260872"/>
+            <point key="canvasLocation" x="-1" y="131"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GcJ-qK-qtm">
             <objects>
                 <viewController id="4kU-yF-2fY" customClass="ViewController" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MDO-RW-d8z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
-                                <rect key="frame" x="49" y="76" width="334" height="162"/>
+                                <rect key="frame" x="49" y="76" width="295" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="wY6-To-gsc"/>
                                 </constraints>
@@ -248,23 +252,8 @@
                                 <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
-                                <rect key="frame" x="51" y="472" width="0.0" height="165"/>
-                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="vKe-Vp-d6s"/>
-                                </constraints>
-                            </datePicker>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
-                                <rect key="frame" x="43" y="397" width="316" height="41"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
-                                <rect key="frame" x="19" y="696" width="364" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
+                                <rect key="frame" x="19" y="664" width="325" height="64"/>
                                 <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                 <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
                                     <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -275,26 +264,40 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="xzm-Vs-GWS"/>
                                 </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
+                                <rect key="frame" x="31" y="424" width="314" height="165"/>
+                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165" id="vKe-Vp-d6s"/>
+                                </constraints>
+                            </datePicker>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                                <rect key="frame" x="43" y="338" width="289" height="41"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.15106683969497681" green="0.22271215915679932" blue="0.36955386400222778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="A0c-cX-uvF" firstAttribute="top" secondItem="vFi-9E-SdS" secondAttribute="top" constant="32" id="7cT-QE-exJ"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="200" id="7wg-Te-DOo"/>
-                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="150" id="8i5-ug-moy"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="51" id="B7l-YB-Qld"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="43" id="CeO-nH-hYa"/>
-                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="59" id="Fxi-52-CPU"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="75" id="8i5-ug-moy"/>
+                            <constraint firstItem="XDb-yv-v71" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="31" id="Bag-Qm-sjy"/>
                             <constraint firstItem="A0c-cX-uvF" firstAttribute="trailing" secondItem="MjJ-2X-FyJ" secondAttribute="trailing" id="HTN-G9-UdJ"/>
                             <constraint firstItem="vFi-9E-SdS" firstAttribute="trailing" secondItem="MjJ-2X-FyJ" secondAttribute="trailing" constant="31" id="HjG-NA-t8e"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="centerX" secondItem="9nM-3k-2qq" secondAttribute="centerX" id="Iml-px-t3C"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="centerX" secondItem="MjJ-2X-FyJ" secondAttribute="centerX" id="JuU-BS-Osv"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="34" id="KgQ-kA-Ywa"/>
+                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="45" id="OTm-7C-zDt"/>
                             <constraint firstItem="A0c-cX-uvF" firstAttribute="top" secondItem="MDO-RW-d8z" secondAttribute="top" constant="250" id="Owl-vy-2wW"/>
                             <constraint firstItem="MjJ-2X-FyJ" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="19" id="PGg-ks-itv"/>
                             <constraint firstItem="vFi-9E-SdS" firstAttribute="bottom" secondItem="MjJ-2X-FyJ" secondAttribute="bottom" constant="102" id="Rb5-7c-4Ki"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="150" id="Rcw-Uy-ZF8"/>
+                            <constraint firstItem="9nM-3k-2qq" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="43" id="dP4-NM-xYi"/>
                             <constraint firstItem="A0c-cX-uvF" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="49" id="dxm-ML-FA0"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="75" id="fCG-2W-O0b"/>
                             <constraint firstItem="vFi-9E-SdS" firstAttribute="bottom" secondItem="MjJ-2X-FyJ" secondAttribute="bottom" constant="50" id="iYa-XA-4qn"/>
+                            <constraint firstItem="vFi-9E-SdS" firstAttribute="trailing" secondItem="XDb-yv-v71" secondAttribute="trailing" constant="30" id="mmF-Bi-vRu"/>
+                            <constraint firstItem="9nM-3k-2qq" firstAttribute="centerX" secondItem="MDO-RW-d8z" secondAttribute="centerX" id="so0-6s-jYm"/>
+                            <constraint firstItem="9nM-3k-2qq" firstAttribute="top" secondItem="A0c-cX-uvF" secondAttribute="bottom" constant="50" id="zii-Tn-cuk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vFi-9E-SdS"/>
                     </view>
@@ -305,7 +308,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfl-ch-4uv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oSG-HH-Myp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1275.3623188405797" y="131.25"/>
+            <point key="canvasLocation" x="1314.4927536231885" y="130.58035714285714"/>
         </scene>
     </scenes>
     <resources>
