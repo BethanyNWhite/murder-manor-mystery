@@ -59,8 +59,9 @@ class secondView: ViewController {
         // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
     }
     func setCharacter(){
+        
     }
-    //ANNA
+ //ANNA
     if characterNumber == 0 {
     // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
     let notificationContent = notificationContent0[0]
@@ -71,6 +72,7 @@ class secondView: ViewController {
     notification5(notificationHour : timeSelectedHour!, notificationMinute: 20, notificationContent : notificationContent0[0])
     notification6(notificationHour : timeSelectedHour! + 1, notificationMinute:15, notificationContent: notificationContent0[1])
     notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:25, notificationContent : notificationContent0[2])
+ 
     }
     //BENJAMIN
     if characterNumber == 1 {
@@ -262,7 +264,6 @@ class secondView: ViewController {
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
     center.add(request)
     }
-    
     func notification9(notificationHour: Int, notificationMinute: Int, notificationContent: String){
     let center = UNUserNotificationCenter.current()
     let content = UNMutableNotificationContent()
@@ -276,4 +277,5 @@ class secondView: ViewController {
     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
     center.add(request)
+}
 }
