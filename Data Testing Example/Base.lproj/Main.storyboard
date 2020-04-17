@@ -170,7 +170,7 @@
                                 <rect key="frame" x="20" y="64" width="335" height="694"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-6x-6j0">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="448.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="450.66666666666669"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </string>
@@ -184,7 +184,7 @@
                                         <color key="highlightedColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-ZX-Tal">
-                                        <rect key="frame" x="0.0" y="468.66666666666663" width="335" height="100"/>
+                                        <rect key="frame" x="0.0" y="470.66666666666663" width="335" height="100"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
                                         </accessibility>
@@ -242,33 +242,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
-                                <rect key="frame" x="40" y="36" width="295" height="162"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="wY6-To-gsc"/>
-                                </constraints>
-                                <string key="text">Please enter the number you have been given in the box below so you can receive your character and choose the time your game will begin with your group!</string>
-                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="22"/>
-                                <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
-                                <rect key="frame" x="40" y="234" width="295" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
-                                </connections>
-                            </textField>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
-                                <rect key="frame" x="30" y="313" width="314" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
-                                <rect key="frame" x="25" y="555" width="325" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
+                                <rect key="frame" x="25" y="643" width="325" height="64"/>
                                 <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                 <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
                                     <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -279,8 +254,38 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="xzm-Vs-GWS"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                                <rect key="frame" x="16" y="304" width="345" height="41"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
+                                </connections>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
+                                <rect key="frame" x="31" y="397" width="320" height="216"/>
+                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
+                                <rect key="frame" x="36" y="110" width="303" height="162"/>
+                                <string key="text">Please enter the number you have been given in the box below so you can receive your character and choose the time your game will begin with your group!</string>
+                                <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="22"/>
+                                <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.15106683969497681" green="0.22271215915679932" blue="0.36955386400222778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="centerX" secondItem="XDb-yv-v71" secondAttribute="centerX" constant="-3.5" id="2BF-g3-dAe"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="25" id="A1Y-el-qja"/>
+                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="52" id="GXr-aN-20P"/>
+                            <constraint firstItem="vFi-9E-SdS" firstAttribute="trailing" secondItem="9nM-3k-2qq" secondAttribute="trailing" constant="14" id="Gce-aO-Q3b"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="centerX" secondItem="A0c-cX-uvF" secondAttribute="centerX" id="NRz-n0-sPf"/>
+                            <constraint firstItem="9nM-3k-2qq" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="16" id="PeA-c5-Eq0"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="30" id="ZZd-H8-EHW"/>
+                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="centerX" secondItem="9nM-3k-2qq" secondAttribute="centerX" constant="-1" id="hiq-JZ-ypT"/>
+                            <constraint firstItem="vFi-9E-SdS" firstAttribute="bottom" secondItem="MjJ-2X-FyJ" secondAttribute="bottom" constant="71" id="vwH-QS-aCJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vFi-9E-SdS"/>
                     </view>
                     <connections>
