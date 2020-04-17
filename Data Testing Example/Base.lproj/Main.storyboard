@@ -127,7 +127,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember to act as the character below for the event!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOd-Aj-qoQ">
-                                <rect key="frame" x="25" y="37" width="284" height="78"/>
+                                <rect key="frame" x="25" y="37" width="316" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -156,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1984.8" y="130.88455772113943"/>
+            <point key="canvasLocation" x="1984.8" y="130.78817733990149"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jKG-oC-0gf">
@@ -170,7 +170,7 @@
                                 <rect key="frame" x="20" y="64" width="335" height="694"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-6x-6j0">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="448"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="448.33333333333331"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </string>
@@ -184,16 +184,16 @@
                                         <color key="highlightedColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-ZX-Tal">
-                                        <rect key="frame" x="0.0" y="474" width="335" height="100"/>
+                                        <rect key="frame" x="0.0" y="468.66666666666663" width="335" height="100"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
                                         </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="kql-LC-uFz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="14"/>
-                                        <state key="normal" title="PLAYING AT HOME *COMING SOON*" backgroundImage="juniorprojectDARKERBUTTON">
-                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="20"/>
+                                        <state key="normal" title="PLAYING AT THE EVENT" backgroundImage="jpbuttonagain">
+                                            <color key="titleColor" red="0.9204031229019165" green="0.76550954580307007" blue="0.83616143465042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="beginGameButton:" destination="7cW-LY-FbT" eventType="touchUpInside" id="Bts-pD-SH7"/>
@@ -205,8 +205,8 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Eno-dr-ku9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="22"/>
-                                        <state key="normal" title="PLAYING AT THE EVENT" backgroundImage="jpbuttonagain">
+                                        <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="15"/>
+                                        <state key="normal" title="PLAYING AT HOME *COMING SOON*" backgroundImage="juniorprojectDARKERBUTTON">
                                             <color key="titleColor" red="0.90588235289999997" green="0.7725490196" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -242,8 +242,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
-                                <rect key="frame" x="49" y="76" width="295" height="162"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0c-cX-uvF">
+                                <rect key="frame" x="40" y="36" width="295" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="wY6-To-gsc"/>
                                 </constraints>
@@ -252,8 +252,23 @@
                                 <color key="textColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
-                                <rect key="frame" x="19" y="664" width="325" height="64"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                                <rect key="frame" x="40" y="234" width="295" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
+                                </connections>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
+                                <rect key="frame" x="30" y="313" width="314" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjJ-2X-FyJ">
+                                <rect key="frame" x="25" y="555" width="325" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                 <state key="normal" title="ENTER" backgroundImage="jpbuttonagain">
                                     <color key="titleColor" red="0.90782481429999995" green="0.7737762332" blue="0.83609706159999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -264,41 +279,8 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="xzm-Vs-GWS"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDb-yv-v71">
-                                <rect key="frame" x="31" y="424" width="314" height="165"/>
-                                <color key="backgroundColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="vKe-Vp-d6s"/>
-                                </constraints>
-                            </datePicker>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
-                                <rect key="frame" x="43" y="338" width="289" height="41"/>
-                                <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField:" destination="oSG-HH-Myp" eventType="editingDidEnd" id="2Q2-G6-lVm"/>
-                                </connections>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.15106683969497681" green="0.22271215915679932" blue="0.36955386400222778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="A0c-cX-uvF" firstAttribute="top" secondItem="vFi-9E-SdS" secondAttribute="top" constant="32" id="7cT-QE-exJ"/>
-                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="75" id="8i5-ug-moy"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="31" id="Bag-Qm-sjy"/>
-                            <constraint firstItem="A0c-cX-uvF" firstAttribute="trailing" secondItem="MjJ-2X-FyJ" secondAttribute="trailing" id="HTN-G9-UdJ"/>
-                            <constraint firstItem="vFi-9E-SdS" firstAttribute="trailing" secondItem="MjJ-2X-FyJ" secondAttribute="trailing" constant="31" id="HjG-NA-t8e"/>
-                            <constraint firstItem="XDb-yv-v71" firstAttribute="top" secondItem="9nM-3k-2qq" secondAttribute="bottom" constant="45" id="OTm-7C-zDt"/>
-                            <constraint firstItem="A0c-cX-uvF" firstAttribute="top" secondItem="MDO-RW-d8z" secondAttribute="top" constant="250" id="Owl-vy-2wW"/>
-                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="19" id="PGg-ks-itv"/>
-                            <constraint firstItem="vFi-9E-SdS" firstAttribute="bottom" secondItem="MjJ-2X-FyJ" secondAttribute="bottom" constant="102" id="Rb5-7c-4Ki"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="43" id="dP4-NM-xYi"/>
-                            <constraint firstItem="A0c-cX-uvF" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="49" id="dxm-ML-FA0"/>
-                            <constraint firstItem="MjJ-2X-FyJ" firstAttribute="top" secondItem="XDb-yv-v71" secondAttribute="bottom" constant="75" id="fCG-2W-O0b"/>
-                            <constraint firstItem="vFi-9E-SdS" firstAttribute="bottom" secondItem="MjJ-2X-FyJ" secondAttribute="bottom" constant="50" id="iYa-XA-4qn"/>
-                            <constraint firstItem="vFi-9E-SdS" firstAttribute="trailing" secondItem="XDb-yv-v71" secondAttribute="trailing" constant="30" id="mmF-Bi-vRu"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="centerX" secondItem="MDO-RW-d8z" secondAttribute="centerX" id="so0-6s-jYm"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="top" secondItem="A0c-cX-uvF" secondAttribute="bottom" constant="50" id="zii-Tn-cuk"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vFi-9E-SdS"/>
                     </view>
                     <connections>
@@ -308,7 +290,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfl-ch-4uv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oSG-HH-Myp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1314" y="131"/>
+            <point key="canvasLocation" x="1312.8" y="130.78817733990149"/>
         </scene>
     </scenes>
     <resources>
