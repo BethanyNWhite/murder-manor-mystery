@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0449254F244DE9EC0024E6E8 /* Bernardo Moda Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0449254E244DE9E90024E6E8 /* Bernardo Moda Bold.ttf */; };
+		04492550244DE9EF0024E6E8 /* NickelodeonNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0449254D244DE9D20024E6E8 /* NickelodeonNF.otf */; };
 		805F2EF123EB0F02003FC5B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F2EF023EB0F02003FC5B2 /* AppDelegate.swift */; };
 		805F2EF323EB0F02003FC5B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F2EF223EB0F02003FC5B2 /* SceneDelegate.swift */; };
 		805F2EF523EB0F02003FC5B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F2EF423EB0F02003FC5B2 /* ViewController.swift */; };
@@ -14,11 +16,11 @@
 		805F2EFA23EB0F03003FC5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805F2EF923EB0F03003FC5B2 /* Assets.xcassets */; };
 		805F2EFD23EB0F03003FC5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805F2EFB23EB0F03003FC5B2 /* LaunchScreen.storyboard */; };
 		805F2F0523EB1322003FC5B2 /* myData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F2F0423EB1322003FC5B2 /* myData.swift */; };
-		80CFA68623F1AB30000F6CF7 /* NickelodeonNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80CFA68523F1AB30000F6CF7 /* NickelodeonNF.otf */; };
-		80CFA68823F1AC59000F6CF7 /* Bernardo Moda Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CFA68723F1AC59000F6CF7 /* Bernardo Moda Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0449254D244DE9D20024E6E8 /* NickelodeonNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NickelodeonNF.otf; sourceTree = "<group>"; };
+		0449254E244DE9E90024E6E8 /* Bernardo Moda Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bernardo Moda Bold.ttf"; sourceTree = "<group>"; };
 		805F2EED23EB0F02003FC5B2 /* Murder Mystery TDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Murder Mystery TDS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805F2EF023EB0F02003FC5B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805F2EF223EB0F02003FC5B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +30,6 @@
 		805F2EFC23EB0F03003FC5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		805F2EFE23EB0F03003FC5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805F2F0423EB1322003FC5B2 /* myData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myData.swift; sourceTree = "<group>"; };
-		80CFA68523F1AB30000F6CF7 /* NickelodeonNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NickelodeonNF.otf; path = ../../../../Downloads/nickelodeon/NickelodeonNF.otf; sourceTree = "<group>"; };
-		80CFA68723F1AC59000F6CF7 /* Bernardo Moda Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bernardo Moda Bold.ttf"; path = "../../../../Downloads/bernardo-moda/Bernardo Moda Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +65,12 @@
 				805F2EF023EB0F02003FC5B2 /* AppDelegate.swift */,
 				805F2EF223EB0F02003FC5B2 /* SceneDelegate.swift */,
 				805F2EF423EB0F02003FC5B2 /* ViewController.swift */,
-				80CFA68523F1AB30000F6CF7 /* NickelodeonNF.otf */,
 				805F2F0423EB1322003FC5B2 /* myData.swift */,
 				805F2EF623EB0F02003FC5B2 /* Main.storyboard */,
-				80CFA68723F1AC59000F6CF7 /* Bernardo Moda Bold.ttf */,
 				805F2EF923EB0F03003FC5B2 /* Assets.xcassets */,
 				805F2EFB23EB0F03003FC5B2 /* LaunchScreen.storyboard */,
+				0449254E244DE9E90024E6E8 /* Bernardo Moda Bold.ttf */,
+				0449254D244DE9D20024E6E8 /* NickelodeonNF.otf */,
 				805F2EFE23EB0F03003FC5B2 /* Info.plist */,
 			);
 			path = "Data Testing Example";
@@ -134,11 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04492550244DE9EF0024E6E8 /* NickelodeonNF.otf in Resources */,
 				805F2EFD23EB0F03003FC5B2 /* LaunchScreen.storyboard in Resources */,
+				0449254F244DE9EC0024E6E8 /* Bernardo Moda Bold.ttf in Resources */,
 				805F2EFA23EB0F03003FC5B2 /* Assets.xcassets in Resources */,
-				80CFA68823F1AC59000F6CF7 /* Bernardo Moda Bold.ttf in Resources */,
 				805F2EF823EB0F02003FC5B2 /* Main.storyboard in Resources */,
-				80CFA68623F1AB30000F6CF7 /* NickelodeonNF.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

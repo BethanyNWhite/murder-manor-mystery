@@ -13,6 +13,8 @@ var characterNameString : String?
 var descriptionNameString : String?
 var characterNumber : Int?
 var timeSelectedHour : Int?
+
+
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -27,6 +29,7 @@ class ViewController: UIViewController {
         
         center.requestAuthorization(options: [.alert, .badge, .sound]) { granted, error in
             if granted {
+                //these lines need to be removed after testing
                 print("Yay!")
             } else{
                 print("D'oh!")
@@ -35,9 +38,21 @@ class ViewController: UIViewController {
     }
     @IBAction func recieveButton(_ sender: Any) {
     }
+    
+}
+//View Controller with PIcker view
+class ViewController2: ViewController{
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        picker.delegate = self
+        picker.selectRow(12, inComponent: 0, animated: false)
+    }
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var picker: UIPickerView!
     @IBAction func enterButton(_ sender: Any) {
         if Int(textField.text!) != nil && Int(textField.text!)! < 11 {
+            //line below for debugging time
+            //print(timeSelectedHour!)
             generateCharacter (characterNumber: Int(textField.text!)!,
                                descriptionNumber: Int(textField.text!)!)
         } else {
@@ -48,9 +63,47 @@ class ViewController: UIViewController {
         characterNameString = characterNameArray[characterNumber]
         descriptionNameString = descriptionArray[descriptionNumber]
     }
+    
+    
+}
+//Picker stuff, don't touch
+extension ViewController2: UIPickerViewDelegate, UIPickerViewDataSource {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        switch component {
+        case 0:
+            return 24
+        default:
+            return 0
+        }
+    }
+    func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+           return pickerView.frame.size.width/3
+       }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        switch component {
+        case 0:
+            return "\(row):00"
+        default:
+            return""
+        }
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        switch component {
+        case 0:
+            timeSelectedHour = row
+        default:
+            break;
+        }
+        
+    }
+    
 }
 class secondView: ViewController {
-    @IBOutlet weak var characterNameLabel: UILabel!
+
     @IBOutlet weak var characterDescriptionLabel: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,8 +112,6 @@ class secondView: ViewController {
         // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
     }
     func setCharacter(){
-        
-        
         //ANNA
         if characterNumber == 0 {
             // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
