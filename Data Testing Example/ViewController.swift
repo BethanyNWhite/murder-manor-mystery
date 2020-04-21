@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
 }
-//View Controller with PIcker view
+//View Controller with Picker view
 class ViewController2: ViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +52,8 @@ class ViewController2: ViewController{
     @IBAction func enterButton(_ sender: Any) {
         if Int(textField.text!) != nil && Int(textField.text!)! < 11 {
             //line below for debugging time
-            //print(timeSelectedHour!)
+            print(timeSelectedHour!)
+            characterNumber = Int(textField.text!)!
             generateCharacter (characterNumber: Int(textField.text!)!,
                                descriptionNumber: Int(textField.text!)!)
         } else {
@@ -115,7 +116,6 @@ class secondView: ViewController {
         //ANNA
         if characterNumber == 0 {
             // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
-            _ = notificationContent0[0]
             notification1()
             notification2()
             notification3()
@@ -128,7 +128,6 @@ class secondView: ViewController {
         }
         //BENJAMIN
         if characterNumber == 1 {
-            _ = notificationContent1[0]
             notification1()
             notification2()
             notification3()
@@ -139,7 +138,6 @@ class secondView: ViewController {
         }
         //HELEN
         if characterNumber == 2 {
-            _ = notificationContent2[0]
             notification1()
             notification2()
             notification3()
@@ -150,7 +148,6 @@ class secondView: ViewController {
         }
         //KAT
         if characterNumber == 3 {
-            _ = notificationContent3[0]
             notification1()
             notification2()
             notification3()
@@ -164,7 +161,6 @@ class secondView: ViewController {
         }
         //MERIDA
         if characterNumber == 4 {
-            _ = notificationContent4[0]
             notification1()
             notification2()
             notification3()
@@ -175,7 +171,6 @@ class secondView: ViewController {
         }
         //LILI
         if characterNumber == 5 {
-            _ = notificationContent5[0]
             notification1()
             notification2()
             notification3()
@@ -186,7 +181,6 @@ class secondView: ViewController {
         }
         //TONI
         if characterNumber == 6 {
-            _ = notificationContent6[0]
             notification1()
             notification2()
             notification3()
@@ -196,7 +190,6 @@ class secondView: ViewController {
         }
         //CAMILA
         if characterNumber == 7 {
-            _ = notificationContent7[0]
             notification1()
             notification2()
             notification3()
@@ -208,7 +201,6 @@ class secondView: ViewController {
         }
         //TORI
         if characterNumber == 8 {
-            _ = notificationContent8[0]
             notification1()
             notification2()
             notification3()
@@ -219,7 +211,6 @@ class secondView: ViewController {
         }
         //FRED
         if characterNumber == 9 {
-            _ = notificationContent9[0]
             notification1()
             notification2()
             notification3()
@@ -230,7 +221,6 @@ class secondView: ViewController {
         }
         //ELSA
         if characterNumber == 10 {
-            _ = notificationContent10[0]
             notification1()
             notification2()
             notification3()
@@ -248,11 +238,12 @@ class secondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = timeSelectedHour!
+        dateComponents.minute = 1
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
-        dateComponents.hour = timeSelectedHour!
-        dateComponents.minute = 1
         
     }
     func notification2(){
@@ -263,12 +254,14 @@ class secondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = timeSelectedHour!
+        dateComponents.minute = 35
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
-        dateComponents.hour = timeSelectedHour!
-        dateComponents.minute = 35
-    }
+        print ("notification 1 scheduled")
+        }
     
     func notification3(){
         let center = UNUserNotificationCenter.current()
@@ -278,12 +271,13 @@ class secondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = timeSelectedHour!
+        dateComponents.minute = 50
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
-        dateComponents.hour = timeSelectedHour!
-        dateComponents.minute = 50
-        
+            
     }
     
     func notification4(){
@@ -294,11 +288,12 @@ class secondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = timeSelectedHour! + 1
+        dateComponents.minute = 05
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
-        dateComponents.hour = timeSelectedHour! + 1
-        dateComponents.minute = 05
     }
     func notification5(){
         let center = UNUserNotificationCenter.current()
@@ -308,11 +303,13 @@ class secondView: ViewController {
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = timeSelectedHour! + 1
+        dateComponents.minute = 30
         let trigger = UNCalendarNotificationTrigger(dateMatching:dateComponents, repeats:false)
         let request = UNNotificationRequest(identifier:UUID().uuidString, content:content, trigger:trigger)
         center.add(request)
-        dateComponents.hour = timeSelectedHour! + 1
-        dateComponents.minute = 30
+        
         
     }
     
