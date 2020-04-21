@@ -160,7 +160,7 @@
                                 <rect key="frame" x="20" y="64" width="335" height="684"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edj-6x-6j0">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="439.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="438"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">This app is for the 1910's Spanish Flu Mystery hosted by Bethany White, a high school junior at The Delta School. After you allow notifications, you will receive your character profile by typing any number from 0 to 10 (including 0) that you will be assigned at the 'party'. Once you enter that number, your character's name and description will appear. Please act as you think your character would through the whole event! And please allow notifications on the next screen for the full experience!                       </string>
@@ -174,7 +174,7 @@
                                         <color key="highlightedColor" red="0.91208082440000005" green="0.76966202260000005" blue="0.83615523579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-ZX-Tal">
-                                        <rect key="frame" x="0.0" y="465.66666666666663" width="335" height="100"/>
+                                        <rect key="frame" x="0.0" y="464" width="335" height="100"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
                                         </accessibility>
@@ -261,7 +261,7 @@
                                 <color key="textColor" red="1" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Character Number 0 - 10" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Character Number 0 - 11" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-3k-2qq">
                                 <rect key="frame" x="43" y="254" width="289" height="42.666666666666686"/>
                                 <fontDescription key="fontDescription" name="BernardoModaBold" family="Bernardo Moda Bold" pointSize="26"/>
                                 <textInputTraits key="textInputTraits"/>

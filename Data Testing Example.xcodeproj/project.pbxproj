@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		0449254D244DE9D20024E6E8 /* NickelodeonNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NickelodeonNF.otf; sourceTree = "<group>"; };
 		0449254E244DE9E90024E6E8 /* Bernardo Moda Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bernardo Moda Bold.ttf"; sourceTree = "<group>"; };
-		805F2EED23EB0F02003FC5B2 /* Murder Mystery TDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Murder Mystery TDS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		805F2EED23EB0F02003FC5B2 /* Spanish Flu Mystery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spanish Flu Mystery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805F2EF023EB0F02003FC5B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805F2EF223EB0F02003FC5B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		805F2EF423EB0F02003FC5B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		805F2EEE23EB0F02003FC5B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				805F2EED23EB0F02003FC5B2 /* Murder Mystery TDS.app */,
+				805F2EED23EB0F02003FC5B2 /* Spanish Flu Mystery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			);
 			name = "Data Testing Example";
 			productName = "Data Testing Example";
-			productReference = 805F2EED23EB0F02003FC5B2 /* Murder Mystery TDS.app */;
+			productReference = 805F2EED23EB0F02003FC5B2 /* Spanish Flu Mystery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -304,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cameronbuckley.murdermysterytdsapp;
-				PRODUCT_NAME = "Murder Mystery TDS";
+				PRODUCT_NAME = "Spanish Flu Mystery";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -322,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cameronbuckley.murdermysterytdsapp;
-				PRODUCT_NAME = "Murder Mystery TDS";
+				PRODUCT_NAME = "Spanish Flu Mystery";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

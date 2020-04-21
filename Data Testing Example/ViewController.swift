@@ -116,13 +116,14 @@ class secondView: ViewController {
         if characterNumber == 0 {
             // how do I declare characterNumber? Would I do it up in func viewDidLoad?? But what would I be declaring it as? An Int??
             let notificationContent = notificationContent0[0]
-            notification1()
-            notification2()
-            notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute: 20, notificationContent : notificationContent0[0])
-            notification6(notificationHour : timeSelectedHour! + 1, notificationMinute:15, notificationContent: notificationContent0[1])
-            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:25, notificationContent : notificationContent0[2])
+         //   notification1(notificationHour : timeSelectedHour, notificationMinute: 00, notificationContent : notificationContentEveryone0[0])
+           // notification2(notificationHour : timeSelectedHour, notificationMinute : 35, notificationContent : notificationContentEveryone0[1])
+            //notification3(notificationHour : timeSelectedHour, notificationMinute : 50, notificationContent : notificationContentEveryone0[2])
+            //notification4(notificationHour : timeSelectedHour + 1, notificationMinute : 05, notificationContent : notificationContentEveryone0[3])
+           // notification5(notificationHour : timeSelectedHour + 1, notificationMinute : 30, notificationContent : notificationContentEveryone0[4])
+            notification6(notificationHour : timeSelectedHour!, notificationMinute: 20, notificationContent : notificationContent0[0])
+            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:15, notificationContent: notificationContent0[1])
+            notification8(notificationHour : timeSelectedHour! + 1, notificationMinute:25, notificationContent : notificationContent0[2])
             
         }
         //BENJAMIN
@@ -131,9 +132,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:05, notificationContent: notificationContent1[0])
-            notification6(notificationHour : timeSelectedHour!, notificationMinute:25, notificationContent:notificationContent1[1])
+ //           notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:05, notificationContent: notificationContent1[0])
+            notification7(notificationHour : timeSelectedHour!, notificationMinute:25, notificationContent:notificationContent1[1])
         }
         //HELEN
         if characterNumber == 2 {
@@ -141,9 +143,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:10, notificationContent:notificationContent2[0])
-            notification6(notificationHour : timeSelectedHour! + 1, notificationMinute:00, notificationContent:  notificationContent2[1])
+    //        notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:10, notificationContent:notificationContent2[0])
+            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:00, notificationContent:  notificationContent2[1])
         }
         //KAT
         if characterNumber == 3 {
@@ -151,12 +154,13 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:10, notificationContent: notificationContent3[0])
-            notification6(notificationHour: timeSelectedHour! + 1, notificationMinute:00, notificationContent: notificationContent3[1])
-            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:10, notificationContent: notificationContent3[2])
-            notification8(notificationHour : timeSelectedHour! + 1, notificationMinute:15, notificationContent: notificationContent3[3])
-            notification9(notificationHour: timeSelectedHour! + 1, notificationMinute:25, notificationContent: notificationContent3[4])
+ //           notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:10, notificationContent: notificationContent3[0])
+            notification7(notificationHour: timeSelectedHour! + 1, notificationMinute:00, notificationContent: notificationContent3[1])
+            notification8(notificationHour : timeSelectedHour! + 1, notificationMinute:10, notificationContent: notificationContent3[2])
+            notification9(notificationHour : timeSelectedHour! + 1, notificationMinute:15, notificationContent: notificationContent3[3])
+            notification10(notificationHour: timeSelectedHour! + 1, notificationMinute:25, notificationContent: notificationContent3[4])
         }
         //MERIDA
         if characterNumber == 4 {
@@ -164,9 +168,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:55, notificationContent: notificationContent4[0])
-            notification6(notificationHour : timeSelectedHour! + 1, notificationMinute: 05, notificationContent: notificationContent4[1])
+   //         notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:55, notificationContent: notificationContent4[0])
+            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute: 05, notificationContent: notificationContent4[1])
         }
         //LILI
         if characterNumber == 5 {
@@ -174,9 +179,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:30, notificationContent: notificationContent5[0])
-            notification6(notificationHour : timeSelectedHour! + 1, notificationMinute:05, notificationContent: notificationContent5[1])
+    //        notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:30, notificationContent: notificationContent5[0])
+            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:05, notificationContent: notificationContent5[1])
         }
         //TONI
         if characterNumber == 6 {
@@ -184,8 +190,9 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour : timeSelectedHour!, notificationMinute:35, notificationContent: notificationContent6[0])
+      //      notification4()
+            notification5()
+            notification6(notificationHour : timeSelectedHour!, notificationMinute:35, notificationContent: notificationContent6[0])
         }
         //CAMILA
         if characterNumber == 7 {
@@ -193,10 +200,11 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour: timeSelectedHour!, notificationMinute: 10, notificationContent: notificationContent7[0])
-            notification6(notificationHour: timeSelectedHour!, notificationMinute:25, notificationContent: notificationContent7[1])
-            notification7(notificationHour : timeSelectedHour! + 1, notificationMinute:25, notificationContent: notificationContent7[2])
+    //        notification4()
+            notification5()
+            notification6(notificationHour: timeSelectedHour!, notificationMinute: 10, notificationContent: notificationContent7[0])
+            notification7(notificationHour: timeSelectedHour!, notificationMinute:25, notificationContent: notificationContent7[1])
+            notification8(notificationHour : timeSelectedHour! + 1, notificationMinute:25, notificationContent: notificationContent7[2])
         }
         //TORI
         if characterNumber == 8 {
@@ -204,9 +212,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour: timeSelectedHour!, notificationMinute:20, notificationContent: notificationContent8[0])
-            notification6(notificationHour : timeSelectedHour!, notificationMinute:50, notificationContent: notificationContent8[1])
+     //       notification4()
+            notification5()
+            notification6(notificationHour: timeSelectedHour!, notificationMinute:20, notificationContent: notificationContent8[0])
+            notification7(notificationHour : timeSelectedHour!, notificationMinute:50, notificationContent: notificationContent8[1])
         }
         //FRED
         if characterNumber == 9 {
@@ -214,9 +223,10 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour: timeSelectedHour!, notificationMinute:40, notificationContent: notificationContent9[0])
-            notification6(notificationHour: timeSelectedHour! + 1, notificationMinute:00, notificationContent: notificationContent9[1])
+ //           notification4()
+            notification5()
+            notification6(notificationHour: timeSelectedHour!, notificationMinute:40, notificationContent: notificationContent9[0])
+            notification7(notificationHour: timeSelectedHour! + 1, notificationMinute:00, notificationContent: notificationContent9[1])
         }
         //ELSA
         if characterNumber == 10 {
@@ -224,8 +234,9 @@ class secondView: ViewController {
             notification1()
             notification2()
             notification3()
-            notification4()
-            notification5(notificationHour: timeSelectedHour!, notificationMinute:35, notificationContent: notificationContent10[0])
+//            notification4()
+            notification5()
+            notification6(notificationHour: timeSelectedHour!, notificationMinute:35, notificationContent: notificationContent10[0])
         }
     }
     
@@ -267,7 +278,19 @@ class secondView: ViewController {
         center.add(request)
     }
     
-    func notification4(){
+/*    func notification4(){
+        let center = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent
+        content.title = "Spanish Flu UPDATE"
+        content.body = "Helen and Fred Borden have both died from teh Spanish Flu."
+        content.categoryIdentifier = "alarm"
+        content.sound = .default
+        let dateComponents = DateComponents()
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.add(request)
+    }*/
+    func notification5(){
         let center = UNUserNotificationCenter.current()
         let content = UNMutableNotificationContent()
         content.title = "Spanish Flu UPDATE"
@@ -280,7 +303,7 @@ class secondView: ViewController {
         center.add(request)
     }
     
-    func notification5(notificationHour: Int, notificationMinute: Int, notificationContent: String){
+    func notification6(notificationHour: Int, notificationMinute: Int, notificationContent: String){
         let center = UNUserNotificationCenter.current()
         let content = UNMutableNotificationContent()
         content.title = "Spanish Flu UPDATE"
@@ -290,18 +313,6 @@ class secondView: ViewController {
         var dateComponents = DateComponents()
         dateComponents.hour = notificationHour
         dateComponents.minute = notificationMinute
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-        center.add(request)
-    }
-    func notification6(notificationHour: Int, notificationMinute: Int, notificationContent: String){
-        let center = UNUserNotificationCenter.current()
-        let content = UNMutableNotificationContent()
-        content.title = "Spanish Flu UPDATE"
-        content.body = notificationContent
-        content.categoryIdentifier = "alarm"
-        content.sound = .default
-        let dateComponents = DateComponents()
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
@@ -313,9 +324,7 @@ class secondView: ViewController {
         content.body = notificationContent
         content.categoryIdentifier = "alarm"
         content.sound = .default
-        var dateComponents = DateComponents()
-        dateComponents.hour = notificationHour
-        dateComponents.minute = notificationMinute
+        let dateComponents = DateComponents()
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
@@ -335,6 +344,20 @@ class secondView: ViewController {
         center.add(request)
     }
     func notification9(notificationHour: Int, notificationMinute: Int, notificationContent: String){
+        let center = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent()
+        content.title = "Spanish Flu UPDATE"
+        content.body = notificationContent
+        content.categoryIdentifier = "alarm"
+        content.sound = .default
+        var dateComponents = DateComponents()
+        dateComponents.hour = notificationHour
+        dateComponents.minute = notificationMinute
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.add(request)
+    }
+    func notification10(notificationHour: Int, notificationMinute: Int, notificationContent: String){
         let center = UNUserNotificationCenter.current()
         let content = UNMutableNotificationContent()
         content.title = "Spanish Flu UPDATE"
