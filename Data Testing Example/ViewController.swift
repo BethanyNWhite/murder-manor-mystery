@@ -260,7 +260,6 @@ class secondView: ViewController {
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)
-        print ("notification 1 scheduled")
         }
     
     func notification3(){
@@ -336,7 +335,9 @@ class secondView: ViewController {
         content.body = notificationContent
         content.categoryIdentifier = "alarm"
         content.sound = .default
-        let dateComponents = DateComponents()
+        var dateComponents = DateComponents()
+        dateComponents.hour = notificationHour
+        dateComponents.minute = notificationMinute
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         center.add(request)

@@ -18,16 +18,16 @@
         <!--View Controller-->
         <scene sceneID="Sfz-iO-gQ4">
             <objects>
-                <viewController id="XYm-AM-8Bz" customClass="ViewController" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XYm-AM-8Bz" customClass="ViewController" customModule="Spanish_Flu_Mystery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ICv-JJ-aOU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HV9-M2-Kou">
-                                <rect key="frame" x="15" y="59" width="345" height="565"/>
+                                <rect key="frame" x="15" y="59" width="345" height="709"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-t8-B49">
-                                        <rect key="frame" x="0.0" y="0.0" width="345" height="565"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="709"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1910's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N14-ci-CoV">
                                                 <rect key="frame" x="0.0" y="0.0" width="345" height="135"/>
@@ -54,13 +54,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CXj-mS-U2O">
-                                                <rect key="frame" x="0.0" y="451" width="345" height="39"/>
+                                                <rect key="frame" x="0.0" y="451" width="345" height="183"/>
                                                 <color key="textColor" red="0.9078248143196106" green="0.77377623319625854" blue="0.83609706163406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="NickelodeonNF" family="Nickelodeon NF" pointSize="37"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUv-3R-2cK">
-                                                <rect key="frame" x="0.0" y="501" width="345" height="64"/>
+                                                <rect key="frame" x="0.0" y="645" width="345" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="Qmh-dp-wSE"/>
                                                 </constraints>
@@ -106,7 +106,7 @@
         <!--Second View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="secondView" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="secondView" customModule="Spanish_Flu_Mystery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--View Controller-->
         <scene sceneID="jKG-oC-0gf">
             <objects>
-                <viewController id="7cW-LY-FbT" customClass="ViewController" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7cW-LY-FbT" customClass="ViewController" customModule="Spanish_Flu_Mystery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4z-lS-4Up">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,7 +222,7 @@
         <!--View Controller2-->
         <scene sceneID="GcJ-qK-qtm">
             <objects>
-                <viewController id="4kU-yF-2fY" customClass="ViewController2" customModule="Murder_Mystery_TDS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4kU-yF-2fY" customClass="ViewController2" customModule="Spanish_Flu_Mystery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MDO-RW-d8z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,7 +280,7 @@
                             <constraint firstItem="9nM-3k-2qq" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="43" id="dP4-NM-xYi"/>
                             <constraint firstItem="A0c-cX-uvF" firstAttribute="leading" secondItem="vFi-9E-SdS" secondAttribute="leading" constant="49" id="dxm-ML-FA0"/>
                             <constraint firstItem="9nM-3k-2qq" firstAttribute="centerX" secondItem="MDO-RW-d8z" secondAttribute="centerX" id="so0-6s-jYm"/>
-                            <constraint firstItem="9nM-3k-2qq" firstAttribute="top" secondItem="A0c-cX-uvF" secondAttribute="bottom" constant="50" id="zii-Tn-cuk"/>
+                            <constraint firstItem="9nM-3k-2qq" firstAttribute="top" secondItem="A0c-cX-uvF" secondAttribute="bottom" constant="16" id="zii-Tn-cuk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vFi-9E-SdS"/>
                     </view>
