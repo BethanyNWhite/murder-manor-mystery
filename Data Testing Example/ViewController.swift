@@ -234,7 +234,7 @@ class secondView: ViewController {
         let center = UNUserNotificationCenter.current()
         let content = UNMutableNotificationContent()
         content.title = "Spanish Flu UPDATE"
-        content.body = "The Spanish flu has been killing people for a few years now and someone in this group of friends has the cure! It is up to this eleven to figure out who it is to end the spread of this pandemic!"
+        content.body = "The Spanish flu has been killing people for a few years now and someone in this group has the cure! It is up to this eleven to figure out who it is to end the spread of this pandemic!"
         content.categoryIdentifier = "alarm"
         content.sound = .default
         var dateComponents = DateComponents()
